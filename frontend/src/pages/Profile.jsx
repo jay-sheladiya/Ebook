@@ -75,6 +75,7 @@ const Profile = () => {
               value={formData.name}
               onChange={(e) =>
                 setFormData({ ...formData, name: e.target.value })
+                placeholder="Enter your name"
               }
               className="w-full p-2 border rounded focus:ring-2 focus:ring-blue-400"
             />
@@ -89,6 +90,7 @@ const Profile = () => {
               value={formData.email}
               disabled
               className="w-full p-2 border rounded bg-gray-100 text-gray-600"
+              placeholder="Enter your password"
             />
           </div>
 
@@ -133,3 +135,4 @@ const Profile = () => {
 };
 
 export default Profile;
+
