@@ -39,7 +39,7 @@ const Register = () => {
           </div>
           <h1 className="text-2xl font-bold text-gray-800">Create an Account</h1>
           <p className="text-gray-500 text-sm text-center">
-            Join now and start reading your favorite books
+            Join now and start reading your favorite books.
           </p>
         </div>
 
@@ -134,3 +134,4 @@ const Register = () => {
 };
 
 export default Register;
+
