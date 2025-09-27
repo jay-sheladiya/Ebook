@@ -52,7 +52,7 @@ const BookmarkForm = ({ bookId, currentPage, bookmarks, setBookmarks }) => {
         type="number"
         value={formData.page}
         onChange={(e) => setFormData({ ...formData, page: e.target.value })}
-        className="w-full mb-4 p-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-blue-500 transition-all"
+        className="w-full mb-4 p-2 border border-gray-400 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-blue-500 transition-all"
         min="1"
       />
 
@@ -86,4 +86,5 @@ const BookmarkForm = ({ bookId, currentPage, bookmarks, setBookmarks }) => {
 };
 
 export default BookmarkForm;
+
 
