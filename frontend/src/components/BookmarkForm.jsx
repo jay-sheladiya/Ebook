@@ -10,7 +10,7 @@ const BookmarkForm = ({ bookId, currentPage, bookmarks, setBookmarks }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!formData.page) return alert("Page number is required");
+    if (!formData.page) return alert("Page number is required!");
 
     try {
       setLoading(true);
@@ -86,3 +86,4 @@ const BookmarkForm = ({ bookId, currentPage, bookmarks, setBookmarks }) => {
 };
 
 export default BookmarkForm;
+
